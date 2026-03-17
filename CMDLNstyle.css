@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: OCRBfont;
+    src: url(assets/fonts/OCBR.otf);
+}
+
+.command-line {
+    font-family: OCRBfont;
+    color: #4bee00;
+    font-size: 17px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.command-line-main {
+    min-height: 80vh;
+    width: 100%;
+}
+
+.command-line p, li {
+    color: #4bee00;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.command-line li {
+    font-style: italic;
+}
+
+.command-line ul {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.command-line button, a {
+    color: #88ff88;
+    border: 0px;
+    background: none;
+    text-decoration: underline;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.separatorL, .separatorR {
+    width: 1%;
+    height: 80vh;
+    background-color: #282828;
+}
+
+.separatorL {
+    float: left;
+}
+
+.separatorR {
+    float: right;
+}
+
+/* container for the 3D model*/
+#threeContainer {
+    height: 80vh;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-color: #282828;
+}
+
+.three-container {
+    background-color: #282828;
+}
